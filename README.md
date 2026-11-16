@@ -2,15 +2,19 @@
 
 Bot oficial comunitario de ZyrexCraft, desarrollado con JavaScript, Discord.js v14 y Node.js 24.
 
-## Funciones
-- Bienvenidas y despedidas configurables.
-- XP, niveles, ranking, perfil, reputación y economía virtual.
-- Sugerencias con votos y revisión del staff.
-- Invitaciones y recompensas por metas (roles configurables).
-- Sorteos con botones, duración, ganadores y reroll.
-- Moderación: ban, kick, timeout, advertencias y limpieza.
-- Tickets, postulaciones, anuncios y registros.
-- Información y estado básico del servidor Minecraft.
+## Comandos incluidos
+- `/ping`, `/perfil`, `/diario`, `/top`, `/saldo`, `/pagar`, `/trabajar`.
+- `/reputacion dar|ver`.
+- `/invites` y recompensas por metas de invitaciones.
+- `/sugerencia` con botones para votar.
+- `/ban`, `/kick`, `/timeout`, `/warn`, `/warnings`, `/clear`.
+- `/ticket` para publicar el panel; botones para abrir y cerrar tickets privados.
+- `/postular` para enviar solicitudes al canal del equipo.
+- `/anuncio` para publicar comunicados.
+- `/sorteo crear|terminar|reroll`, con botón para participar.
+- `/servidor` para consultar la información configurada de Minecraft.
+
+El bot también incluye bienvenidas, despedidas y XP por mensajes. Los comandos de moderación y administración requieren los permisos adecuados de Discord.
 
 ## Instalación
 1. Usa Node.js 24.
