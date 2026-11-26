@@ -85,7 +85,7 @@ client.on("guildMemberAdd", async member => {
   }
 
   const channel = config.channels.welcome ? member.guild.channels.cache.get(config.channels.welcome) : null;
-  if (channel) channel.send(`👋 ¡Bienvenido/a ${member} a **ZYREXCRAFT NETWORK**!`).catch(() => {});
+  if (channel) channel.send(`👋 ¡Bienvenido/a ${member} a **CircuMC**!`).catch(() => {});
 });
 
 client.on("guildMemberRemove", async member => {
@@ -101,7 +101,7 @@ client.on("guildMemberRemove", async member => {
     db.save();
   }
   const channel = config.channels.goodbye ? member.guild.channels.cache.get(config.channels.goodbye) : null;
-  if (channel) channel.send(`👋 **${member.user.username}** salió de ZyrexCraft.`).catch(() => {});
+  if (channel) channel.send(`👋 **${member.user.username}** salió de CircuMC.`).catch(() => {});
 });
 
 client.once("ready", async readyClient => {
