@@ -1,6 +1,6 @@
-# ZYREXCRAFT NETWORK — Discord Bot
+# CIRCUMC — Discord Bot
 
-Bot oficial comunitario de ZyrexCraft, desarrollado con JavaScript, Discord.js v14 y Node.js 24.
+Bot oficial comunitario de CircuMC, desarrollado con JavaScript, Discord.js v14 y Node.js 24.
 
 ## Comandos incluidos
 - `/ping`, `/perfil`, `/diario`, `/top`, `/saldo`, `/pagar`, `/trabajar`.
@@ -18,17 +18,17 @@ El bot también incluye bienvenidas, despedidas y XP por mensajes. Los comandos 
 
 ## Instalación
 1. Usa Node.js 24.
-2. Ejecuta npm install.
-3. Copia .env.example a .env y completa las variables.
-4. Ejecuta npm run deploy para registrar los comandos.
-5. Ejecuta npm start.
+2. Ejecuta `npm install`.
+3. Copia `.env.example` a `.env` y completa las variables.
+4. Ejecuta `npm run deploy` para registrar los comandos.
+5. Ejecuta `npm start`.
 
-En Bot-Hosting, coloca el token y los IDs en las variables de entorno del panel. Nunca subas el archivo .env ni compartas tu token.
+En Bot-Hosting, coloca el token y los IDs en las variables de entorno del panel. Nunca subas el archivo `.env` ni compartas tu token.
 
-Si GUILD_ID está definido, los comandos se registran en ese servidor para pruebas. Si queda vacío, se registran globalmente.
+Si `GUILD_ID` está definido, los comandos se registran en ese servidor para pruebas. Si queda vacío, se registran globalmente.
 
 ## Persistencia
-Los datos se guardan en data/database.json. Asegúrate de que el hosting conserve la carpeta data entre reinicios y reinstalaciones.
+Los datos se guardan en `data/database.json`. Asegúrate de que el hosting conserve la carpeta `data` entre reinicios y reinstalaciones.
 
 ## Permisos e intents
-Activa Server Members Intent y Message Content Intent en el Developer Portal. Invita el bot con los scopes bot y applications.commands, y concede los permisos que correspondan a sus funciones.
+Activa Server Members Intent y Message Content Intent en el Developer Portal. Invita el bot con los scopes `bot` y `applications.commands`, y concede los permisos que correspondan a sus funciones.
